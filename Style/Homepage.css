@@ -291,7 +291,7 @@
 }
 .banner6-text1{
     width: 60%;
-    margin-left: 20%;
+    margin-left: 25%;
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -299,7 +299,7 @@
 .banner6-btn{
     height: 40px;
     width: 160px;
-   margin-left: 40%;
+   margin-left: 45%;
    margin-top: 20px;
    background-color: hwb(202 52% 25% / 0.782);
 }
@@ -308,4 +308,48 @@
     font-size: 20px;
     font-weight: bold;
     color: red;
+}
+/*banner 7 style*/
+.banner7-container7{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.banner7-text1{
+ margin: 15px;
+ font-size: 30px;
+ font-weight: bold;
+ color: rgb(226, 63, 63);
+}
+.banner7-div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.person{
+    height: 45vh;
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 6px solid wheat;
+}
+.person-img{
+    margin-top: 10px;
+    height: 230px;
+    width: 260px;
+    border: 5px solid silver;
+    border-radius: 10px;
+}
+.person-text1{
+    margin: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.person-text2{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
