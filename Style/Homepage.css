@@ -1,0 +1,311 @@
+/* default  styles*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*remove the scrollbar from  browser*/
+::-webkit-scrollbar{
+    display: none;
+  }
+/*navbar style*/
+.nav{
+   display: flex;
+   flex-direction:row;
+   text-align: center;
+   justify-content: space-between;
+  padding: 3px;
+   background-color: hwb(127 43% 44% / 0.33);
+   width: 99.4%;
+   margin: auto;
+   margin-top: 4px;
+}
+.menus{
+    display: flex;
+   flex-direction:row;
+   text-align: center;
+   justify-content: center;
+   margin-top: 30px;
+   gap: 20px;
+   padding: 10px;
+   
+}
+.logo1{
+   height: 95px;
+   width: 100px;
+}
+.menu-item{
+    color: hwb(154 9% 53% / 0.57);;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.menu-item:hover{
+    color: rgba(222, 22, 35, 0.701);
+    cursor: pointer;
+}
+/*banner style*/
+.banner-container{
+    background-image: url("/images/banner.jpg");
+    background-color: #f2f2f296;
+    height: 80vh;
+    width: 98%;
+    margin: auto;
+ background-size: auto;
+ background-blend-mode: overlay; 
+ display: flex;
+ flex-direction: row-reverse;
+ gap: 40px;
+}
+.banner-img{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 580px;
+    width:590px ;
+    margin-top: 15px;
+   
+}
+.banner-text{
+   margin-top:30%;
+   padding: 0 50px;
+   width: 80%;
+   font-size: 25px;
+   font-weight: bold;
+   color: hwb(154 9% 53% / 0.825);  
+}
+/*banner 2 style*/
+.banner-container2{
+    margin-top: 40px;
+}
+.banner2-text1{
+    text-align: center;
+    margin: 15px; 
+    font-size: 35px; 
+    font-weight: bold;
+    color: hwb(0 11% 12% / 0.61);
+}
+.banner2-text2{
+    text-align: center;
+    margin: 15px; 
+    font-size: 20px; 
+    font-weight: bold;
+    color: hwb(148 11% 12% / 0.712);
+}
+.product{
+    display:flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    gap: 10px;
+}
+.product-imgs{
+    background-color: rgba(71, 125, 17, 0.15);
+    border: 1px solid rgb(231, 224, 224);
+    border-radius: 300px 300px 0 0;
+    width: 350px;
+    height: 350px;
+    padding: 50px 50px 0px 50px;
+
+}
+/*banner 3 style*/
+.banner-container3{
+    height: 55vh;
+    display: flex;
+   justify-items: center;
+   align-items:center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #ffc0cb68;
+    padding: 5px;
+    border-radius: 25px;
+}
+.banner3-text1{
+   margin-left: 40px;
+   font-size: 30px;
+   font-weight: bold;
+   color: #008080b7;
+   
+}
+.banner3-text2{
+    width: 80%;
+    margin: auto;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.banner3-img{
+    height: 450px;
+    padding: 20px;
+}
+.banner3-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: hwb(202 52% 25% / 0.782);    
+}
+.banner3-text3{
+    text-decoration: none;
+    color: #ff2600e3;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*banner 4 style*/
+.banner4-container4{
+    background-image: url("/images/spring-3404_512.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 97%;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+
+}
+.banner4-div{
+    display: flex;
+    align-items: center;
+}
+.banner4-text1{
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+.banner4-text2{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Email{
+    height: 50px;
+    width: 250px;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+}
+.pic{
+    height: 50px;   
+}
+/*banner 5 style*/
+.banner5-container5{
+    margin-top:50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.banner5-text1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(221, 108, 27, 0.714);
+    margin: 15px;
+}
+.marquee-imgs{
+    height: 250px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+/*footer*/
+.footer-container{
+   
+    height: 40vh;
+    background-color: #8e8b8ea3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.4%;
+    margin: auto;
+    margin-top: 40px;
+}
+.footer-text{
+    margin:10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.footer-text2{
+    color: crimson;
+
+}
+.logo{
+    height: 30px;
+    width: 30px;   
+}
+.social{
+    margin-left: 37%;
+}
+.footer-add{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.footer-email{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(177, 54, 54, 0.847);
+}
+.footer-num{
+    margin: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+.footer-end{
+    font-size: 19px;
+    text-align: center;
+    color: white;
+}
+/*about us page*/
+/*banner 6 style*/
+.banner6-container6{
+    background-image: url("/images/yJ.gif");
+    background-color: #f2f2f24b;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay ;
+   background-size: cover;
+    height: 80vh;
+    width: 96%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner6-text1{
+    width: 60%;
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.banner6-btn{
+    height: 40px;
+    width: 160px;
+   margin-left: 40%;
+   margin-top: 20px;
+   background-color: hwb(202 52% 25% / 0.782);
+}
+.banner6-text2{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
