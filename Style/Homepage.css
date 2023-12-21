@@ -143,10 +143,11 @@
 }
 .banner3-btn{
     width: 150px;
-    height: 40px;
+    height: 50px;
     margin-left: 40px;
     margin-top: 20px;
-    background-color: hwb(202 52% 25% / 0.782);    
+    background-color: hwb(202 52% 25% / 0.782); 
+    border-radius: 10px;   
 }
 .banner3-text3{
     text-decoration: none;
@@ -297,11 +298,12 @@
     color: black;
 }
 .banner6-btn{
-    height: 40px;
+    height: 50px;
     width: 160px;
    margin-left: 45%;
    margin-top: 20px;
    background-color: hwb(202 52% 25% / 0.782);
+   border-radius:10px ;
 }
 .banner6-text2{
     text-decoration: none;
@@ -329,7 +331,7 @@
     
 }
 .person{
-    height: 45vh;
+    height: 48vh;
     width: 300px;
     background-color: antiquewhite;
     border-radius: 10px;
@@ -352,4 +354,29 @@
   font-size: 18px;
   font-weight: bold;
   color: black;
+}
+/*banner 8 style*/
+.section8-container8{
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.section8-video{
+    height:350px;
+    
+ 
+
+}
+.section8-pic{
+    height: 350px;
+   
+}
+.section8-text{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    color: #3b8150d7;
 }
