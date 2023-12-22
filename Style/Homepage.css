@@ -356,13 +356,15 @@
   color: black;
 }
 /*banner 8 style*/
-.section8-container8{
+.section8-section8{
+
     margin-top: 20px;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 }
 .section8-video{
     height:350px;
@@ -379,4 +381,80 @@
     font-size: 40px;
     margin: 20px;
     color: #3b8150d7;
+}
+/*banner 9 style*/
+.section9-section9{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.section9-comment{
+    height:220px;
+    width: 1300px;
+    color: black;
+    border-radius: 5px;
+}
+/*banner 10 style*/
+.banner10-container10{
+    text-align: center;
+}
+.banner10-text1{
+    font-size: 30px;
+    margin: 15px;
+    color: brown;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+   
+}
+.item{
+    height: 60vh;
+    width: 450px;
+   background-color:  #9e2b2b4d;
+   border-radius: 15px;
+   
+   box-shadow: 20px 20px 20px rgb(222, 219, 219);
+}
+.item:hover{
+    box-shadow:20px 20px 20px #bb2e2eb1 ;
+}
+.banner10-pic{
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.banner10-text3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner10-text3:hover{
+    color: red;
+}
+.banner10-text4{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner10-text4:hover{
+    color: rgb(226, 63, 63);
+}
+/*banner 10 style*/
+.banner11-container11{
+    margin-top: 40px;
+    font-size: 30px;
+    color: #e13c1b;
+
 }
