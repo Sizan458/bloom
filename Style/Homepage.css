@@ -411,6 +411,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 20px;
 
    
 }
@@ -451,7 +452,7 @@
 .banner10-text4:hover{
     color: rgb(226, 63, 63);
 }
-/*banner 10 style*/
+/*banner 11 style*/
 .banner11-container11{
     margin-top: 40px;
     font-size: 30px;
