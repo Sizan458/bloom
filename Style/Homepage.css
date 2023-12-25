@@ -44,6 +44,12 @@
     color: rgba(222, 22, 35, 0.701);
     cursor: pointer;
 }
+.menu-pic{
+    height: 40px;
+    width: 40px;
+    border: 5px solid rgba(255, 8, 0, 0.668);
+    border-radius: 70px;
+}
 /*banner style*/
 .banner-container{
     background-image: url("/images/banner.jpg");
@@ -515,4 +521,64 @@
 .banner13-img{
     border-radius: 10px;
     height: 430px;
+}
+/*banner 14 style*/
+
+.banner14-text1{
+    font-size: 35px;
+    margin: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: cadetblue;
+    text-align: center;
+
+}
+.banner14-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;  
+}
+.banner14-text2{
+    font-size: 25px;
+ margin-top: 20px;
+}
+.banner14-int{
+    width: 400px;
+    height: 35px;
+    margin-top:5px ;
+}
+.banner14-btn{
+    height: 40px;
+    width: 190px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(42, 165, 112, 0.5);
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.banner14-btn:hover{
+
+color: rgb(226, 63, 63);
+    background-color: bisque;
+}
+.banner14-pic{
+    height: 350px;
+    border-radius: 15px;
+}
+.banner14-text3{
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.banner14-text4{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner14-text4:hover{
+    color: rgb(226, 63, 63);
 }
